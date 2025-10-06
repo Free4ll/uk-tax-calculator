@@ -1,0 +1,88 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-generated files
+
+# Build results
+**/bin/
+**/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Rider project files
+.idea/
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored if it is not under source control
+**/packages/
+# Uncomment if using NuGet Package Restore
+#**/packages/*/
+#**/packages/*/tools/
+#**/packages/*/tools/**
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# DotCover
+*.dotCover
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Build logs
+*.log
+
+# Publish output
+**/publish/
+
+# Backup & report files from converting to SDK-style
+UpgradeLog*.htm
+UpgradeLog*.xml
+_UpgradeReport_Files/
+
+# Others
+*.vspscc
+*.vssscc
+*.tmp
+*.bak
+*.swp
+*.scc
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Python virtual environments (if applicable)
+venv/
+ENV/
+
+# Mac OS files
+.DS_Store
+
+# Ignore local .env files
+.env
+.env.*
+
+# Ignore JetBrains IDE settings
+.idea/
